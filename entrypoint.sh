@@ -3,5 +3,5 @@
 if [ "$1" = "test" ]; then
   exec rspec
 else
-  exec ruby diamond_challenge.rb
+  exec ruby lib/diamond_challenge.rb
 fi

@@ -1,8 +1,4 @@
 class DiamondChallenge
-  def remove_sand(expression)
-    expression.delete!(".")
-  end
-
   def count_and_remove_diamonds(expression)
     diamond_count = 0
     remove_sand(expression)
@@ -13,5 +9,11 @@ class DiamondChallenge
     end
 
     diamond_count
+  end
+
+  private
+
+  def remove_sand(expression)
+    expression.delete!(".")
   end
 end

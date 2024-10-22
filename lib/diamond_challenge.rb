@@ -1,0 +1,2 @@
+class DiamondChallenge
+end

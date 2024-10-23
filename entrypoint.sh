@@ -2,6 +2,8 @@
 
 if [ "$1" = "test" ]; then
   exec rspec
+elif [ "$1" = "standard" ]; then
+  exec standardrb
 else
-  exec ruby diamond_challenge.rb
+  exec ruby lib/diamond_challenge.rb
 fi

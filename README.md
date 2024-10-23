@@ -15,3 +15,15 @@ Dicas:
 * O diamante é a junção dos sinais menor < e maior > sem que não haja nada entre eles.
 * Areia é o ponto final.
 * Considerando a entrada ```<<>>><``` Ao extrair um diamante ```<>```, é formado um novo diamante para ser extraído ```<>><```
+
+
+# Comandos
+
+### Buildando a imagem
+```docker build -t diamond .```
+
+### Rodando o linter
+```docker run diamond standard```
+
+### Rodando os testes
+```docker run diamond test```
